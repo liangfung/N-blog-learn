@@ -1,9 +1,8 @@
 const express = require('express')
 const app = express()
+const indexRouter = require('./routers/index')
+const userRouter = require('./routers/user')
 
-app.get('/', function(req, res){
-  console.log(111)
-  res.send('hello world')
-})
-
+app.use('/', indexRouter)
+app.use('/users', userRouter)
 app.listen(3000)
