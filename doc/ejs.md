@@ -1,0 +1,3 @@
+# ejs
+
+通过ejs模板引擎来返回html字符串，并通过express的render将其作为html字符串输出

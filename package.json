@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/liangfung/N-blog-learn#readme",
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "^4.14.0"
   },
   "devDependencies": {
