@@ -1,0 +1,28 @@
+{
+  "name": "n-blog-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "node --harmony index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangfung/N-blog-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liangfung/N-blog-learn/issues"
+  },
+  "homepage": "https://github.com/liangfung/N-blog-learn#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
