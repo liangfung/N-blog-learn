@@ -1,3 +1,5 @@
 # ejs
 
 通过ejs模板引擎来返回html字符串，并通过express的render将其作为html字符串输出
+
+> 模板引擎的优势在于复用，所以要讲可复用html代码拆分出来，配合ejs的include来进行模板复用
