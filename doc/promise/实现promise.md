@@ -22,7 +22,7 @@ Promise.all = function(){} // Promise的all和race方法
 Promise.race = function(){}
 ```
 
-接下来是仔细的实现
+接下来是详细的实现
 ```js
 'use strict';
 var immediate = require('immediate')
